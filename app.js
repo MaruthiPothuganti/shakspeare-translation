@@ -3,7 +3,7 @@ var btnTranslate = document.querySelector("#translate");
 var outputMessage = document.querySelector("#output");
 
 
-var translationURL = "	https://api.funtranslations.com/translate/shakespeare.json";
+var translationURL = "https://api.funtranslations.com/translate/pirate.json";
 
 function getTranslation(textInput) {
     return translationURL + "?text=" + textInput;
@@ -11,7 +11,7 @@ function getTranslation(textInput) {
 
 function errorHandle(error) {
     console.log("error message", error);
-    alert("Please try after Some time");
+    //alert("Please try after Some time");
 }
 
 btnTranslate.addEventListener("click", function translateText() {
