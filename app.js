@@ -3,7 +3,7 @@ var btnTranslate = document.querySelector("#translate");
 var outputMessage = document.querySelector("#output");
 
 
-var translationURL = "https://api.funtranslations.com/translate/pirate.json";
+var translationURL = "https://api.funtranslations.com/translate/shakespeare.json";
 
 function getTranslation(textInput) {
     return translationURL + "?text=" + textInput;
