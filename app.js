@@ -11,7 +11,7 @@ function getTranslation(textInput) {
 
 function errorHandle(error) {
     console.log("error message", error);
-    //alert("Please try after Some time");
+    alert("Please try after Some time");
 }
 
 btnTranslate.addEventListener("click", function translateText() {
